@@ -9,7 +9,10 @@ var level = 0; // keeps track of level number
 var started = false; // used to check if game has been started
 
 // Create listener for any keypress, which starts game
+// Also add listener for clicking main heading - since mobile users can't keypress
 $(document).on("keydown",  startGame);
+$("#level-title").on("click", startGame);
+
 
 // Add listening event for button clicks
 var buttons = $(".btn"); // selects list of buttons
@@ -109,7 +112,7 @@ function playAnimation (buttonName) {
 // and plays game over sound
 function gameOver () {
    // Change heading and body colour
-   $("h1").text("Game Over, Press Any Key to Restart");
+   $("h1").text("Game Over, Press Any Key or Click Here to Restart");
    $("body").addClass("game-over");
    resetValues();
 

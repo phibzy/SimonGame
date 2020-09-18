@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+buttons	index.js	/^var buttons = $(".btn"); \/\/ selects list of buttons$/;"	v
+checkButton	index.js	/^function checkButton () {$/;"	f
+count	index.js	/^var count = 0; \/\/ count keeping track of pattern sequence$/;"	v
+gameOver	index.js	/^function gameOver () {$/;"	f
+level	index.js	/^var level = 0; \/\/ keeps track of level number$/;"	v
+nextLevel	index.js	/^function nextLevel () {$/;"	f
+patternArray	index.js	/^var patternArray = []; \/\/ use array to store pattern$/;"	v
+playAnimation	index.js	/^function playAnimation (buttonName) {$/;"	f
+playSound	index.js	/^function playSound (soundName) {$/;"	f
+resetValues	index.js	/^function resetValues() {$/;"	f
+startGame	index.js	/^function startGame() {$/;"	f
+started	index.js	/^var started = false; \/\/ used to check if game has been started$/;"	v
