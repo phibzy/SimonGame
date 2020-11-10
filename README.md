@@ -5,3 +5,7 @@ After each round a new button press is added to the sequence, and you are not re
 You lose if you click any button out of sequence.
 
 Original template by Angela Yu, as part of her Web Development Bootcamp course.
+
+# Deployment
+
+Deployed website: https://phibzy.github.io/SimonGame/
